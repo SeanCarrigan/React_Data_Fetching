@@ -18,6 +18,11 @@ const Form = ({ reqType, setReqType }) => {
         reqType={reqType}
         setReqType={setReqType}
       ></Button>
+      <Button
+        buttonText="todos"
+        reqType={reqType}
+        setReqType={setReqType}
+      ></Button>
     </form>
   );
 };
