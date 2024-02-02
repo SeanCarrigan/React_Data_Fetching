@@ -8,6 +8,7 @@ function App() {
   const [reqType, setReqType] = useState("users");
   const [items, setItems] = useState([]);
 
+  // this useEffect runs every time a button is clicked. Refer to the buttons in Form.js and the [reqType] dependency 
   useEffect(() => {
     const fetchItems = async () => {
       try {
